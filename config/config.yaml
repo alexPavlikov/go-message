@@ -1,0 +1,17 @@
+env: local #dev, prod
+timeout: 5
+loglevel: local
+server:
+    port: 10000
+    path: localhost
+kafka:
+    port: 9092
+    path: localhost
+topic: message
+postgres:
+    server:
+        path: localhost
+        port: 5433
+    user: postgres
+    password: AlexPAV2307
+    name: messanger

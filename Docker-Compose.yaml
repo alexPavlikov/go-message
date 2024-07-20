@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  server:
+    build: ./
+    container_name: go-message
+    restart: always
+    ports:
+      - "10000:10000"
